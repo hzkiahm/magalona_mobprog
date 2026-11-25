@@ -10,7 +10,7 @@ class NewsfeedScreen extends StatelessWidget {
       children: const [
         NewsfeedCard(
           userName: 'Hezekiah Magalona',
-          postContent: 'never goin back again!',
+          postContent: 'never goin back!',
           date: '2 hours ago',
           numOfLikes: 7, 
           profileImage: 'assets/icons/hpfp.png', 
@@ -24,6 +24,24 @@ class NewsfeedScreen extends StatelessWidget {
           hasImage: true,
           profileImage: 'assets/icons/pbpfp.png',
         ), 
+         NewsfeedCard(
+          userName: 'Georgia Lee',
+          postContent: 'why wasnt g there',
+          date: 'November 12 , 2026',
+          numOfLikes: 4,
+          hasImage: true,
+          postImage: 'assets/images/nu.png',
+          profileImage: 'assets/icons/bes1.png',
+        ), 
+         NewsfeedCard(
+          userName: 'Cat Val',
+          postContent: 'meow',
+          date: 'November 21, 2026',
+          numOfLikes: 98,
+          hasImage: true,
+          postImage: 'assets/images/meow.png',
+          profileImage: 'assets/icons/bes2.png',
+        ),  
       ],
     );
   }

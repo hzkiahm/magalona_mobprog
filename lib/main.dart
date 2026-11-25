@@ -1,6 +1,8 @@
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:magalona_mobprog/screens/home_screen.dart';
 import 'package:magalona_mobprog/screens/newsfeed_screen.dart';
+import 'package:magalona_mobprog/screens/notifications_screen.dart';
+import 'package:magalona_mobprog/screens/profile_screen.dart';
 import 'package:material_ui/material_ui.dart';
 void main() {
   runApp(const MainApp());
@@ -23,6 +25,8 @@ class MainApp extends StatelessWidget {
           routes: {
             "/newsfeed": (context) => const NewsfeedScreen(),
             "/home": (context) => const HomeScreen(),
+            "/notifications": (context) => const NotificationScreen(),
+            "/profile": (context) => const ProfileScreen(), // Add this line
           },
         );
       },
