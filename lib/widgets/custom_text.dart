@@ -10,7 +10,7 @@ class CustomText extends StatelessWidget {
     this.textAlign = TextAlign.left,
     this.letterSpacing = 0,
     this.fontFamily = 'Frutiger',
-    this.fontStyle = FontStyle.normal,
+    this.fontStyle = FontStyle.normal, 
   });
 
   final String text;

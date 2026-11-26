@@ -60,7 +60,7 @@ class _NewsfeedCardState extends State<NewsfeedCard> {
                 CircleAvatar(
                   radius: 15.r,
                   backgroundImage: AssetImage(widget.profileImage),
-                  backgroundColor: Colors.grey[300],
+                  backgroundColor: const Color.fromARGB(255, 254, 255, 251),
                 ),
                 SizedBox(width: 10.w),
                 Expanded(
@@ -71,7 +71,7 @@ class _NewsfeedCardState extends State<NewsfeedCard> {
                         text: widget.userName,
                         fontSize: 15.sp,
                         color: Colors.black,
-                        fontWeight: FontWeight.bold,
+                        fontWeight: FontWeight.bold, 
                       ),
                       Row(
                         children: [
@@ -145,7 +145,7 @@ class _NewsfeedCardState extends State<NewsfeedCard> {
               children: [
                 CircleAvatar(
                   radius: 10.r,
-                  backgroundImage: const AssetImage('assets/icons/hpfp.png'),
+                  backgroundImage: const AssetImage('assets/icons/hm.png'),
                   backgroundColor: Colors.grey[300],
                 ),
                 SizedBox(width: 8.w),

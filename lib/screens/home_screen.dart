@@ -25,24 +25,24 @@ class _HomeScreenState extends State<HomeScreen> {
         elevation: 2,
         title: _selectedIndex == 0
             ? CustomText(
-                text: 'Facebook',
+                text: 'ScrollOfDoom',
                 fontSize: ScreenUtil().setSp(25),
-                color: fbPrimary,
+                color:fbDarkPrimary,
                 fontFamily: 'Klavika',
                 fontWeight: FontWeight.w700,
               )
             : _selectedIndex == 1
                 ? CustomText(
-                    text: 'Notifications',
+                    text: 'Daily Distractions',
                     fontSize: ScreenUtil().setSp(25),
-                    color: fbPrimary,
+                    color: fbDarkPrimary,
                     fontFamily: 'Klavika',
                     fontWeight: FontWeight.w700,
                   )
                 : CustomText(
-                    text: 'Profile',
+                    text: 'The Suspect',
                     fontSize: ScreenUtil().setSp(25),
-                    color: fbPrimary,
+                    color: fbDarkPrimary,
                     fontFamily: 'Klavika',
                     fontWeight: FontWeight.w700,
                   ), // AppBar

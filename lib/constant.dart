@@ -1,7 +1,7 @@
 import 'dart:ui' show Color;
 
-const Color fbPrimary = Color(0xFF0167f8); 
-const Color fbSecondary = Color(0xFF003bb3); 
-const Color fbDarkPrimary = Color(0xFF021452); 
-const Color fblightPrimary = Color(0xFF74b7fb);
-const Color fbTextColorWhite = Color(0xFFe0f0fd);
+const Color fbPrimary = Color.fromARGB(255, 126, 148, 3); 
+const Color fbSecondary = Color.fromARGB(255, 69, 106, 0); 
+const Color fbDarkPrimary = Color.fromARGB(255, 20, 55, 0); 
+const Color fblightPrimary = Color.fromARGB(255, 213, 238, 137);
+const Color fbTextColorWhite = Color.fromARGB(255, 211, 238, 195);

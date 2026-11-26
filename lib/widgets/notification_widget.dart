@@ -8,11 +8,13 @@ class NotificationWidget extends StatelessWidget {
     required this.name,
     required this.post,
     required this.description,
+    required this.profileImage,
   });
 
   final String name;
   final String post;
   final String description;
+  final String profileImage;
 
   @override
   Widget build(BuildContext context) {
@@ -20,8 +22,12 @@ class NotificationWidget extends StatelessWidget {
       padding: EdgeInsets.all(ScreenUtil().setSp(15)),
       child: Row(
         children: [
-          Icon(Icons.person),
-          SizedBox(width: ScreenUtil().setSp(10)),
+          CircleAvatar(
+            radius: 15.r,
+            backgroundImage: AssetImage(profileImage),
+            backgroundColor: const Color.fromARGB(255, 254, 255, 251),
+          ),
+          SizedBox(width: 16.w),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
