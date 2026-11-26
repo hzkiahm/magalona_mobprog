@@ -1,4 +1,3 @@
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:magalona_mobprog/widgets/notification_widget.dart';
 import 'package:material_ui/material_ui.dart';
 
