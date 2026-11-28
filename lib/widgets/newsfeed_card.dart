@@ -26,7 +26,6 @@ class NewsfeedCard extends StatefulWidget {
   @override
   State<NewsfeedCard> createState() => _NewsfeedCardState();
 }
-
 class _NewsfeedCardState extends State<NewsfeedCard> {
   late int _likeCount;
   bool _isLiked = false;
@@ -36,7 +35,6 @@ class _NewsfeedCardState extends State<NewsfeedCard> {
     super.initState();
     _likeCount = widget.numOfLikes;
   }
-
   void _toggleLike() {
     setState(() {
       _isLiked = !_isLiked;

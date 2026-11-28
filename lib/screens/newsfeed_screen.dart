@@ -1,4 +1,4 @@
-import 'package:magalona_mobprog/widgets/newsfeed_screen.dart';
+import 'package:magalona_mobprog/widgets/newsfeed_card.dart';
 import 'package:material_ui/material_ui.dart';
 
 class NewsfeedScreen extends StatelessWidget {
